@@ -38,13 +38,14 @@ footer{
 }
 .contato{
     margin-left: 15px;
-    color: black;
+    color: wheat;
     
 }
 .imagens{
     
     border-style: solid;
     border-radius: 20px;
+    color: black;
 }
 main {
     display: inline-block;
@@ -57,9 +58,9 @@ main {
    margin-bottom: 10px;
 }
 .menu ul li a {
-    color: #8b8b8b;
+    color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     
 }
@@ -74,6 +75,7 @@ header{
     border-style: solid;
     border-radius: 20px;
     text-decoration: none;
+    color: black;
 }
 
 .logo{
@@ -81,9 +83,17 @@ header{
     
 }
 .title{
-    margin-left: 880px;
+    
     background-color: red;
-    width: 115px;
+    width: 195px;
     border-radius: 20px;
     border-style: solid;
+    color: black;
+}
+.logo2{
+    background-color: red;
+    width: 200px;
+    border-radius: 20px;
+    border-style: solid;
+    color: black;
 }

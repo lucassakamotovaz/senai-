@@ -14,11 +14,13 @@ header{
     height: 500px;
     border-radius: 15px;
     border-style: solid;
+    margin-top: 20px;
     
 }
 .card_grupo{
     text-align: center;
     font-size: 25px;
+    color: white;
 }
 .title{
     text-align: center;
@@ -27,10 +29,15 @@ header{
     width: 300px;
     border-radius: 20px;
     border-style: solid ;
+    margin-top: 10px;
+    color: black;
+    
 }
 .title2{
     text-align: center;
     font-size: 25px;
+    color: white;
+    
 }
 .sistema{
     margin-right: 30px;
@@ -40,7 +47,7 @@ header{
     font-size: 20px;
 }
 .sistema ul li a{
-    color: royalblue;
+    color: wheat;
     text-decoration: none;
     
 }
@@ -63,15 +70,17 @@ input{
     margin-bottom: 10px;
  }
  .menu ul li a {
-     color: #8b8b8b;
+     color: white;
      text-decoration: none;
-     font-size: 15px;
+     font-size: 20px;
      text-transform: uppercase;
  }
 .voltar{
     text-align: center;
     background-color: red;
-    width: 100px;
+    width: 120px;
     border-radius: 20px;
     text-decoration: none;
+    border-style: solid;
+    color: black;
 }
