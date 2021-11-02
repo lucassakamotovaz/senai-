@@ -1,0 +1,118 @@
+body{
+    background-color:#7E0202 ;
+    margin: 0 auto;
+}
+header{
+    background-color: #B41313;
+}
+.logo{
+    margin-left: 10px;
+}
+.card{
+    background-color: #B40707;
+    width: 900px;
+    height: 700px;
+    border-radius: 15px;
+    border-style: solid;
+    margin-top: 20px;
+    
+}
+.card_grupo{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    background-color: red;
+    width: 300px;
+    border-radius: 20px;
+    border-style: solid ;
+    margin-top: 10px;
+    color: black;
+    
+}
+.title2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    
+}
+.sistema{
+    margin-right: 30px;
+}
+.sistema ul li{
+    display: inline-block;
+    font-size: 20px;
+}
+.sistema ul li a{
+    color: wheat;
+    text-decoration: none;
+    
+}
+
+input[type=text], input[type=password]{
+    font-size: 25px;
+}
+
+
+input{
+    height: 25px;
+    
+
+}
+
+.menu ul li {
+    display: inline-block; 
+    color: #8b8b8b;
+    margin-left: 10px;
+    margin-bottom: 10px;
+ }
+ .menu ul li a {
+     color: white;
+     text-decoration: none;
+     font-size: 20px;
+     text-transform: uppercase;
+ }
+.voltar{
+    text-align: center;
+    background-color: red;
+    width: 120px;
+    border-radius: 20px;
+    text-decoration: none;
+    border-style: solid;
+    color: black;
+}
+.collapse{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black  ;
+    height: 350px;
+    background-color: wheat;
+    color: black;
+    text-align: center;
+}
+.error-validation{
+    color: darkmagenta;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+.template{
+    display: none ;
+}
+.BotaoRE{
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: red;
+    border-style: solid;
+    border-color: black;
+}
+.btn{
+   
+    color: wheat;
+    font-size: 25px;
+}
+
+
