@@ -1,0 +1,167 @@
+body{
+    background-color:#7E0202 ;
+    margin: 0 auto;
+}
+header{
+    background-color: #B41313;
+}
+.logo{
+    margin-left: 10px;
+}
+.card{
+    background-color: #B40707;
+    width: 900px;
+    height: 700px;
+    border-radius: 15px;
+    border-style: solid;
+    margin-top: 20px;
+    
+}
+.card_grupo{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    background-color: red;
+    width: 300px;
+    border-radius: 20px;
+    border-style: solid ;
+    margin-top: 10px;
+    color: black;
+    
+}
+.title2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    
+}
+.sistema{
+    margin-right: 30px;
+}
+.sistema ul li{
+    display: inline-block;
+    font-size: 20px;
+}
+.sistema ul li a{
+    color: wheat;
+    text-decoration: none;
+    
+}
+
+input[type=text], input[type=password]{
+    font-size: 25px;
+}
+
+
+input{
+    height: 25px;
+    
+
+}
+
+#menuItem{
+    display: flex;
+	list-style: none;
+	gap: .5rem;
+}
+#menuItem a {
+    display: block;/*Para conseguir definir o padding */
+	padding: .5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.voltar{
+    text-align: center;
+    background-color: red;
+    width: 120px;
+    border-radius: 20px;
+    text-decoration: none;
+    border-style: solid;
+    color: black;
+}
+
+
+
+.BotaoRE{
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: red;
+    border-style: solid;
+    border-color: black;
+}
+.btn{
+   
+    color: wheat;
+    font-size: 25px;
+}
+#sandwich{
+    display: none;
+}
+@media (max-width: 600px) {
+    #menuItem {
+        visibility: hidden;
+        display: block;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        
+       
+        
+        
+        
+    }
+    #nav.active #menuItem {
+        visibility: visible;
+    }
+    
+    
+    #sandwich{
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+        left: 100px;
+        text-decoration: none;
+        
+    }
+    #hamburguer{
+        border-top: 2px solid;
+        width: 20px;
+    }
+    #hamburguer::after, #hamburguer::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        position: relative;
+        transition: .3s; 
+
+    }
+    #nav.active #hamburguer{
+        border-top-color: transparent ;
+    }
+
+    #nav.active #hamburguer::before{
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburguer::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    
+}
+
+
+
